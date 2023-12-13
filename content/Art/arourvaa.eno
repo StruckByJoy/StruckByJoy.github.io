@@ -1,0 +1,59 @@
+title: The World of Arourvaa
+pictureAlt: Map of Arourvaa
+tooltip: Home to three distinct kingdoms, cultures, and corresponding wildlife.
+
+#section
+type: hero
+
+buttons:
+ - flowchart
+
+#section
+type: article
+
+-- body
+Home to three distinct kingdoms, cultures, and corresponding wildlife, Arourvaa is a unique setting for the protagonists and antagonists who live there.
+-- body
+
+#section
+type: gallery
+items:
+ - Fralith_Sitting_On_A_Log
+ - Midst_of_A_Dream
+- A_Fallen_HomeKin
+ - BEEP_BEEP_Silly_Birds
+ - Arourvaa_Map
+ - DreamLits
+ - Drao_As_Ravan_Hanging
+ - Ravans_Equipment
+ - HomeKin_Dramatic4
+ - HomeKin_Dramatic5
+ - HomeKin_Dramatic6
+ - HomeKin_Dramatics
+ - HomeKin_Dramatics2
+ - HomeKin_Dramatics3
+ - May_The_Eternal_Be_With_You_Always
+ - Obzadax_Male_And_Female
+ - SecondHome_Hills_Color_Crazy
+ - Triumph_Like_Hope
+ - Argo_Plants
+ - Arourvaan_Fancy_Clothing
+ - Slirdandrii
+ - Happy_Drao_In_SecondHome
+
+#section
+type: relatedArticles
+title: More Art
+items:
+ - seritha
+ - other
+ - commissions
+
+#section
+type: copyright
+startYear: 2023
+owner: Jasmin Joy Hu
+
+#css
+heroPadding: 16rem 0px 20rem
+heroOpacity: 0.3

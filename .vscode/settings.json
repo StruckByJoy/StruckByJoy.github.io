@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"staging/**": true,
+		"website/**": true
+	},
+	"search.exclude": {
+		"staging/**": true,
+		"website/**": true
+	},
+	"search.useGlobalIgnoreFiles": true
+}

@@ -1,0 +1,66 @@
+title: Struck By Joy
+absUrl: https://struckbyjoy.com
+pictureAlt: Golden wolf
+tagline: Concept Art
+viewport-margin: 100
+intersection-ratios: 0.5
+
+menuItems:
+ - Art
+ - Commissions
+ - Contact
+
+#fonts
+##Leafy
+300: fonts/Leafy.woff2
+
+##Amsterdam-two
+900: fonts/amsterdam-two.woff2
+
+#components
+default:
+ - progressIndicator
+ - scrollToTopButton
+index:
+ - highlightMenu
+ - scrollToTopButton
+
+#postProcessors
+default:
+ - CssTrimer
+index:
+ - CssTrimer
+404:
+ - CssTrimer
+
+#css
+anchor-hover-color: #feb811
+anchor-top-margin: -140px
+body-font: Leafy
+carousel-indicator-color: #feb811
+contactLabel-font-size: 28px
+h1-color: #feb811
+h1-font: Amsterdam-two
+hamburgerMenuBreak: 686px
+hero-align-items: flex-end
+heroCaption-text-align: center
+menu-container-height: 79px
+menu-container-padding: 50px 1rem
+menu-container-padding-phone: 50px 1rem 50px 6px
+navbar-background: #1c5d99
+navbar-caption-width: 172px
+navbar-font: Leafy
+navbar-font-size: 2.7rem
+navbar-link-margin-left-desktop: 3.5rem
+navbar-logo-margin: 0 0.4rem 0 0
+navbar-logo-width: 85px
+navbar-nav-margin-mobile: 10px 0 0 0
+scrollTarget-top: -11rem
+scrollToTopButton-color: #feb811
+sectionContact-padding: 7rem 0 0 0
+section-title-line-height: 2.8
+submit-button-background-color: #feb811
+submit-button-background-color-hover: #bbcde5
+submit-button-color: black
+submit-button-padding: 4px 0 12px 0
+submit-button-padding-mobile: 16px 0 12px 0

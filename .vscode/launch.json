@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run servers",
+      "type": "node",
+      "request": "launch",
+      "args": [
+        "Server.ts"
+      ],
+      "runtimeArgs": [
+        "--no-experimental-fetch",
+        "--loader",
+        "ts-node/esm"
+      ],
+      "cwd": "${workspaceRoot}/server",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+title: The World of Seritha
+pictureAlt: Soanii: Beholder of Universes
+tooltip: An ancient planet full of lore, wolves, and a constant struggle against the extraterrestrial evil.
+
+#section
+type: hero
+
+buttons:
+ - flowchart
+
+#section
+type: article
+
+-- body
+Tucked in a cluster of stars is Seritha, an ancient planet full of lore, wolves, and a constant struggle against the extraterrestrial evil staining its inhabitants.
+-- body
+
+#section
+type: gallery
+items:
+ - Syllyon_Characters_Protector
+ - Syllyon_Characters_Haven
+ - Sylyion_Characters_Solace
+ - Marei_Re-design
+ - Syllyon_Characters_Tranquility
+ - Updraft_Re-design
+ - Alephea_Seritha_Wolf
+ - First_Shard
+ - Anyone_Have_A_Story_Idea_Yet
+ - Corrupted_Shards
+ - Fully_Corrupted_Shard
+ - Pigeon_Wing_Wolf
+ - Soanii_Beholder_of_Universes
+
+#section
+type: relatedArticles
+title: More Art
+items:
+ - arourvaa
+ - other
+ - commissions
+
+#section
+type: copyright
+startYear: 2023
+owner: Jasmin Joy Hu
+
+#css
+heroPadding: 10rem 0px 38rem 5rem
+heroOpacity: 0.2

@@ -1,0 +1,64 @@
+title: Struck By Joy
+subtitle: Concept Art by Jasmin Joy Hu
+pictureAlt: Characters of Seritha
+
+mainKeywords:
+ - healing
+ - theology
+keywords:
+ - christian
+ - healing
+ - healing method
+ - inner healing
+ - physical healing
+ - theology
+
+#section
+type: hero
+articleTitle: Struck By Joy
+cssClass: indexHero fullscreen
+
+# section
+type: cards
+title: Art
+description: Born from the unseen depths of my imagination, this conglomeration of pieces depicts everything from serious, stylized humans to silly, squishable creatures.
+
+items:
+ - arourvaa
+ - seritha
+ - other
+
+#section
+type: carousel
+items:
+ - index/Fralith_Sitting_On_A_Log
+ - index/Triumph_Like_Hope
+ - other
+ - index/SecondHome_hills_color_crazy
+ - index/PlantsRBanks
+
+# section
+type: cards
+title: Commissions
+description: The greatest woe of an active imagination is the inability to share what you have created in your head. As an artist, my goal is to reveal what is unseen, be it from my imagination or yours. Do you have something you cannot quite capture with words? I would be happy to draw it for you!
+
+items:
+ - commissions
+ 
+#section
+type: contact
+title: Contact Us
+description: Contact me if you want me to draw something for you.
+endPoint: https://services.struckbyjoy.com/contact
+
+#section
+type: copyright
+startYear: 2023
+owner: Jasmin Joy Hu
+
+#css
+heroPadding: 0 0 4vh 0
+heroOpacity: 0.3
+heroOverlayColor: #3f485d
+progressIndicatorHeight: 0
+sectionRelatedArticles-margin: 0

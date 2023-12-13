@@ -1,0 +1,47 @@
+title: Other Art
+pictureAlt: Zephyr
+tooltip: Other pieces ranging from humans of all walks of life, otherworldly creatures, or cute, squishable, original video game characters.
+
+#section
+type: hero
+
+buttons:
+ - flowchart
+
+#section
+type: article
+
+-- body
+Where all pieces under, over, around, and beyond the sun (that do not come from Arourvaa or Seritha) are gathered! This ranges from humans of all walks of life, otherworldly creatures, or cute, squishable, original video game characters.
+-- body
+
+#section
+type: gallery
+items:
+ - CrunchieMunchie
+ - The_Puppy_Wants_To_Eat_Your_Elbows
+ - Zoda
+ - Level_1_Puppy
+ - Level_8_Puppy
+ - PlantsRBanks
+ - Jar_O_Blep
+ - Dream_Logic
+ - Zephyr
+ - Among_The_Silvering_Branches
+
+#section
+type: relatedArticles
+title: More Art
+items:
+ - arourvaa
+ - seritha
+ - commissions
+
+#section
+type: copyright
+startYear: 2023
+owner: Jasmin Joy Hu
+
+#css
+heroPadding: 16rem 0 36rem 0
+heroOpacity: 0.2

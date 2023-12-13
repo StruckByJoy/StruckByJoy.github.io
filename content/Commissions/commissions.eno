@@ -1,0 +1,52 @@
+﻿title: Commissions
+pictureAlt: Laura
+tooltip: Have a character you cannot quite capture within words? I would be happy to draw it for you!
+
+#section
+type: hero
+
+#section
+type: article
+
+-- body
+The greatest woe of an active imagination is the inability to share what you have created in your head. As an artist, my goal is to reveal what is unseen, be it from my imagination or yours. Have a character you cannot quite capture within words? I would be happy to draw it for you!
+-- body
+
+#section
+type: gallery
+items:
+ - Adelaide
+ - Ayaz
+ - Badriya
+ - Larua
+ - Lucas
+ - Melanie
+ - Tiger
+ - Varian
+ - Najicy
+
+#section
+type: contact
+title: Get a Quote
+description: Interested in visualizing your thoughts? I can draw it for you.
+endPoint: https://services.struckbyjoy.com/contact
+
+#section
+type: relatedArticles
+title: More Art
+items:
+ - arourvaa
+ - seritha
+ - other
+
+#section
+type: copyright
+startYear: 2023
+owner: Jasmin Joy Hu
+
+#css
+heroPadding: 29rem 0 22rem
+heroOpacity: 0.2
+cardstock-section-subtitle-margin: 5rem 0 2rem 0
+sectionContact-margin: 7rem 0 0 0
+sectionRelatedArticles-margin: 0
