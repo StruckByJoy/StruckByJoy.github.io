@@ -37,7 +37,6 @@ index:
 anchor-hover-color: #feb811
 anchor-top-margin: -140px
 body-font: Leafy
-carousel-indicator-color: #feb811
 contactLabel-font-size: 28px
 h1-color: #feb811
 h1-font: Amsterdam-two
@@ -56,10 +55,8 @@ navbar-logo-margin: 0 0.4rem 0 0
 navbar-logo-width: 85px
 navbar-nav-margin-mobile: 10px 0 0 0
 scrollTarget-top: -11rem
-scrollToTopButton-color: #feb811
 sectionContact-padding: 7rem 0 0 0
 section-title-line-height: 2.8
-submit-button-background-color: #feb811
 submit-button-background-color-hover: #bbcde5
 submit-button-color: black
 submit-button-padding: 4px 0 12px 0
