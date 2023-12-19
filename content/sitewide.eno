@@ -39,7 +39,8 @@ $yellow: #feb811
 
 anchor-hover-color: $yellow
 anchor-top-margin: -140px
-article-padding: 2rem 0 0 0
+articleContainer-background: white
+articleContainer-padding: 2rem 0 0 0
 body-font: $bodyFont
 card-stock-h1-margin-phone: -1rem 0 4rem 0
 contactLabel-font-size: 28px
@@ -61,13 +62,14 @@ navbar-logo-width: 85px
 navbar-nav-margin-mobile: 10px 0 0 0
 relatedArticles-card-stock-h1-margin: 0 0 6rem 0
 scrollTarget-top: -11rem
+section-container-padding: 0
+section-container-padding-phone: 0 2rem
 section-carousel-padding: 6rem 0 9rem 0
 section-carousel-padding-tablet: 4rem 0 7rem 0
 section-carousel-padding-phone: 4rem 0 6rem 0
 section1Wrapper-padding: 8rem 0 0 0
 section1Wrapper-padding-tablet: 6rem 0 0 0
-section1Wrapper-padding-phone: 5rem 0 0 0
-sectionContact-padding: 7rem 0 0 0
+sectionContact-padding: 6rem 0 0 0
 sectionRelatedArticles-padding: 8rem 0
 sectionRelatedArticles-padding-tablet: 7rem 0
 section-title-line-height: 2.8

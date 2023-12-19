@@ -1,4 +1,4 @@
-const staticCache = "StruckByJoy-cache-v1";
+const staticCache = "StruckByJoy-cache-v2";
 var prefetchList = ["fonts/Leafy.woff2","fonts/amsterdam-two.woff2","https://cdn.ampproject.org/v0.js","https://cdn.ampproject.org/v0/amp-sidebar-0.1.js","https://cdn.ampproject.org/v0/amp-animation-0.1.js","https://cdn.ampproject.org/v0/amp-position-observer-0.1.js","https://cdn.ampproject.org/v0/amp-selector-0.1.js","https://cdn.ampproject.org/v0/amp-carousel-0.2.js","https://cdn.ampproject.org/v0/amp-form-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"];
 var pageNames = ["spa","index","arourvaa","seritha","other","index/Fralith_Sitting_On_A_Log","commissions"];
 var enableSPA = false;
@@ -227,7 +227,14 @@ function modifyResponse(networkResponse, values) {
             function push() {
                 return reader.read().then(({ done, value }) => {
                     if (value !== undefined) {
-                        data.push.apply(data, value)
+                        if (data.length === 0) {
+                            data = value;
+                        } else {
+                            const len = value.length;
+                            for(let i = 0; i < len; i++) {
+                                data.push(value[i]);
+                            }
+                        }
                     }
                     if (done) {
                         let str = new TextDecoder("utf-8").decode(Uint8Array.from(data));
