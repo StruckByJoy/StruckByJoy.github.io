@@ -1,6 +1,7 @@
 title: Struck By Joy
 absUrl: https://struckbyjoy.com
 pictureAlt: Golden wolf
+seoTitle: Struck By Joy | Art By Jasmin Hu
 tagline: Concept Art
 viewport-margin: 100
 intersection-ratios: 0.5
@@ -42,10 +43,14 @@ anchor-top-margin: -140px
 articleContainer-background: white
 articleContainer-padding: 2rem 0 0 0
 body-font: $bodyFont
+card-stock-h1-margin: 0 0 6rem 0
 card-stock-h1-margin-phone: -1rem 0 4rem 0
+contact-font: Courier New
+contact-padding: 1rem 1rem 2rem 1rem
 contactLabel-font-size: 28px
 h1-color: $yellow
 h1-font: Amsterdam-two
+h1-font-size: 5.5rem
 hamburgerMenuBreak: 686px
 hero-align-items: flex-end
 heroCaption-text-align: center
@@ -76,5 +81,3 @@ section-title-line-height: 2.8
 submit-button-background: $yellow
 submit-button-background-hover: #bbcde5
 submit-button-color: black
-submit-button-padding: 4px 0 12px 0
-submit-button-padding-mobile: 16px 0 12px 0
