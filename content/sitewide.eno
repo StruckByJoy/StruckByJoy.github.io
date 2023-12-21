@@ -45,6 +45,7 @@ articleContainer-padding: 2rem 0 0 0
 body-font: $bodyFont
 card-stock-h1-margin: 0 0 6rem 0
 card-stock-h1-margin-phone: -1rem 0 4rem 0
+card-stock-padding: 0
 contact-font: Courier New
 contact-padding: 1rem 1rem 2rem 1rem
 contactLabel-font-size: 28px

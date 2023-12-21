@@ -57,10 +57,6 @@ startYear: 2023
 owner: Jasmin Joy Hu
 
 #css
-card-stock-padding: 0
 heroPadding: 0 0 4vh 0
 heroOpacity: 0.3
 heroOverlayColor: #3f485d
-progressIndicatorHeight: 0
-section-first-padding: 7rem 0 0 0;
-sectionRelatedArticles-margin: 0

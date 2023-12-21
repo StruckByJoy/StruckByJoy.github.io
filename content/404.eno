@@ -11,4 +11,3 @@ cssClass: fullscreen
 heroPadding: 5rem 0 5rem 0
 heroOpacity: 0.4
 heroOverlayColor: #3f485d
-progressIndicatorHeight: 0
