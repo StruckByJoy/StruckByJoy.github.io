@@ -276,9 +276,9 @@
 		let styleSheet = this.getPageStylesInSPApage();
 
 		let rules = {
-			'.hero .container': 'heroPadding: 5rem 0 5rem 2rem;',
+			'#progressIndicator': 'height: 0;',
+'.hero .container': 'heroPadding: 5rem 0 5rem 2rem;',
 '.hero .overlay': 'heroOpacity: 0;',
-'#progressIndicator': 'height: 0;',
 		};
 		if (styleSheet.cssRules.length === 0) {
 			for (let selector in rules) {
