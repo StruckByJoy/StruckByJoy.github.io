@@ -40,11 +40,6 @@ items:
  - other
  - commissions
 
-#section
-type: copyright
-startYear: 2023
-owner: Jasmin Joy Hu
-
 #css
 heroPadding: 10rem 0px 38rem 5rem
 heroOpacity: 0.2

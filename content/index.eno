@@ -51,11 +51,6 @@ title: Contact Us
 description: Contact me if you want me to draw something for you.
 endPoint: https://services.struckbyjoy.com/contact
 
-#section
-type: copyright
-startYear: 2023
-owner: Jasmin Joy Hu
-
 #css
 heroPadding: 0 0 4vh 0
 heroOpacity: 0.3

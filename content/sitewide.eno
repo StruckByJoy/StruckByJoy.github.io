@@ -34,6 +34,13 @@ index:
 404:
  - CssTrimer
 
+#footer
+
+##section
+type: copyright
+startYear: 2023
+owner: Jasmin Joy Hu
+
 #css
 $bodyFont: Leafy
 $yellow: #feb811
