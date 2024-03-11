@@ -20,9 +20,9 @@ type: gallery
 items:
  - Fralith_Sitting_On_A_Log
  - Midst_of_A_Dream
- - A_Fallen_HomeKin
- - BEEP_BEEP_Silly_Birds
+ - Beep_Fralith
  - Arourvaa_Map
+ - Slirdandrii
  - DreamLits
  - Happy_Drao_In_SecondHome
  - Drao_As_Ravan_Hanging
@@ -36,10 +36,8 @@ items:
  - Obzadax_Male_And_Female
  - SecondHome_Hills_Color_Crazy
  - Triumph_Like_Hope
- - Beep_Fralith
  - Just_a_Drao
  - Quiva
- - Slirdandrii
 
 #section
 type: relatedArticles
