@@ -47,9 +47,14 @@ items:
  
 #section
 type: contact
-title: Contact Us
+title: Contact &nbsp;Me
 description: Contact me if you want me to draw something for you.
 endPoint: https://services.struckbyjoy.com/contact
+supports:
+ - name
+ - emailLabel
+messages:
+ - Custom~
 
 #css
 heroPadding: 0 0 4vh 0
