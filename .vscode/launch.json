@@ -15,6 +15,26 @@
       ],
       "cwd": "${workspaceRoot}/server",
       "internalConsoleOptions": "openOnSessionStart"
+    },
+	{
+      "name": "Debug Bun",
+      "type": "bun",
+      "args": ["run"],
+      "request": "launch",
+      "program": "Server.ts",
+	  "cwd": "${workspaceRoot}/server",
+      "stopOnEntry": false,
+      "internalConsoleOptions": "openOnSessionStart"    
+    },
+    {
+      "name": "Test Program",
+      "type": "bun",
+      "args": ["test"],
+      "request": "launch",
+      "program": "test/*.spec.ts",
+	  "cwd": "${workspaceRoot}/server",
+      "stopOnEntry": false,
+      "internalConsoleOptions": "openOnSessionStart" 
     }
   ]
 }

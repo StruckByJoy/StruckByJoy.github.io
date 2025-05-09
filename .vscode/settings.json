@@ -7,5 +7,6 @@
 		"staging/**": true,
 		"docs/**": true
 	},
-	"search.useGlobalIgnoreFiles": true
+	"search.useGlobalIgnoreFiles": true,
+	"bun.runtime": "node_modules/@oven/bun-windows-x64-baseline/bin/bun"
 }
