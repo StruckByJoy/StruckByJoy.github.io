@@ -1,6 +1,6 @@
-const staticCache = "StruckByJoy-cache-v4";
-var prefetchList = ["fonts/Leafy.woff2","fonts/amsterdam-two.woff2","https://cdn.ampproject.org/v0.js","https://cdn.ampproject.org/v0/amp-sidebar-0.1.js","https://cdn.ampproject.org/v0/amp-animation-0.1.js","https://cdn.ampproject.org/v0/amp-position-observer-0.1.js","https://cdn.ampproject.org/v0/amp-selector-0.1.js","https://cdn.ampproject.org/v0/amp-carousel-0.2.js","https://cdn.ampproject.org/v0/amp-bind-0.1.js","https://cdn.ampproject.org/v0/amp-form-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"];
-var pageNames = ["spa","index","arourvaa","seritha","other","index/Fralith_Sitting_On_A_Log","commissions"];
+const staticCache = "StruckByJoy-cache-v1";
+var prefetchList = ["spa","fonts/Leafy.woff2","fonts/amsterdam-two.woff2","https://cdn.ampproject.org/v0.js","https://cdn.ampproject.org/v0/amp-sidebar-0.1.js","https://cdn.ampproject.org/v0/amp-animation-0.1.js","https://cdn.ampproject.org/v0/amp-position-observer-0.1.js","https://cdn.ampproject.org/v0/amp-selector-0.1.js","https://cdn.ampproject.org/v0/amp-carousel-0.2.js","https://cdn.ampproject.org/v0/amp-bind-0.1.js","https://cdn.ampproject.org/v0/amp-form-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js","index"];
+var imageNames = ["index","arourvaa","seritha","other","index/Fralith_Sitting_On_A_Log","commissions"];
 
 var supportsWebP = determineIfSupportWebp();
 var supportsGoogleHostedAMP = determineIfSupportsGoogleHostedAMP();
@@ -125,7 +125,7 @@ function prefetchRestOfSite(key, cache, size) {
     mHasPrefetched = true;
 
     let suffix = size == 2000 ? '' : `.${size}`;
-    pageNames.map(image => {
+    imageNames.map(image => {
         if (image != "spa" && (!(image in mSizes) || mSizes[image] < size)) {
             let key = `images/${image}.jpg`;
 
@@ -136,7 +136,7 @@ function prefetchRestOfSite(key, cache, size) {
             });
         }
     });
-    pageNames.map(image => {
+    imageNames.map(image => {
         if (!(image in mSizes)) {
             let key = '/' + (image == 'index' ? '' : image);
 
