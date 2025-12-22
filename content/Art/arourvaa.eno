@@ -49,5 +49,5 @@ items:
  - commissions
 
 #css
-heroPadding: 16rem 0px 20rem
-heroOpacity: 0.3
+hero-container-padding: 16rem 0px 20rem
+hero-overlay-opacity: 0.3

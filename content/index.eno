@@ -57,6 +57,5 @@ messages:
  - Custom~
 
 #css
-heroPadding: 0 0 4vh 0
-heroOpacity: 0.3
-heroOverlayColor: #3f485d
+hero-container-padding: 0 0 4vh 0
+hero-overlay-opacity: 0.3

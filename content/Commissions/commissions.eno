@@ -43,5 +43,5 @@ items:
  - other
 
 #css
-heroPadding: 29rem 0 22rem
-heroOpacity: 0.2
+hero-container-padding: 29rem 0 22rem
+hero-overlay-opacity: 0.2
