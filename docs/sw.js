@@ -1,6 +1,6 @@
-const staticCache = "StruckByJoy-cache-v6";
+const staticCache = "StruckByJoy-cache-v7";
 var prefetchList = ["spa","fonts/Leafy.woff2","fonts/amsterdam-two.woff2","https://cdn.ampproject.org/v0.js","https://cdn.ampproject.org/v0/amp-sidebar-0.1.js","https://cdn.ampproject.org/v0/amp-animation-0.1.js","https://cdn.ampproject.org/v0/amp-position-observer-0.1.js","https://cdn.ampproject.org/v0/amp-selector-0.1.js","https://cdn.ampproject.org/v0/amp-carousel-0.2.js","https://cdn.ampproject.org/v0/amp-bind-0.1.js","https://cdn.ampproject.org/v0/amp-form-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js","index"];
-var imageNames = ["index","arourvaa","seritha","other","index/Fralith_Sitting_On_A_Log","commissions"];
+var imageNames = ["index","arourvaa","seritha","other","arourvaa/Fralith_Sitting_On_A_Log","commissions"];
 
 var supportAvif = determineIfSupportAvif();
 var supportsGoogleHostedAMP = determineIfSupportsGoogleHostedAMP();

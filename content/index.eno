@@ -31,11 +31,11 @@ items:
 #section
 type: carousel
 items:
- - index/Fralith_Sitting_On_A_Log
- - index/Triumph_Like_Hope
+ - arourvaa/Fralith_Sitting_On_A_Log
+ - arourvaa/Triumph_Like_Hope
  - other
- - index/SecondHome_hills_color_crazy
- - index/PlantsRBanks
+ - arourvaa/SecondHome_hills_color_crazy
+ - other/PlantsRBanks
 
 # section
 type: cards
