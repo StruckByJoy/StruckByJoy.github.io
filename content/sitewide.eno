@@ -60,17 +60,18 @@ contact-label-font-size: 28px
 h1-color: $yellow
 h1-font: Amsterdam-two
 h1-font-size: 5.5rem
-hamburgerMenuBreak: 686px
+hamburgerMenuBreak: 771px
 hero-align-items: flex-end
 menu-container-height: 79px
 menu-container-padding: 50px 1rem
 menu-container-padding-phone: 50px 1rem 50px 6px
 hero-row-div-text-align: center
+navbar-a-font: 3rem $bodyFont
+navbar-a-font-size-phone: 3rem
 navbar-a-margin-left-desktop: 3.5rem
 navbar-a-margin-phone: 1rem 0
 navbar-background: #1c5d99
 navbar-caption-width: 172px
-navbar-font: 2.7rem $bodyFont
 navbar-logo-margin: 0 0.4rem 0 0
 navbar-logo-width: 85px
 navbar-nav-margin-mobile: 10px 0 0 0
