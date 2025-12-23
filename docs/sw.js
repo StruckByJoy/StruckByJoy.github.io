@@ -1,8 +1,8 @@
-const staticCache = "StruckByJoy-cache-v1";
+const staticCache = "StruckByJoy-cache-v6";
 var prefetchList = ["spa","fonts/Leafy.woff2","fonts/amsterdam-two.woff2","https://cdn.ampproject.org/v0.js","https://cdn.ampproject.org/v0/amp-sidebar-0.1.js","https://cdn.ampproject.org/v0/amp-animation-0.1.js","https://cdn.ampproject.org/v0/amp-position-observer-0.1.js","https://cdn.ampproject.org/v0/amp-selector-0.1.js","https://cdn.ampproject.org/v0/amp-carousel-0.2.js","https://cdn.ampproject.org/v0/amp-bind-0.1.js","https://cdn.ampproject.org/v0/amp-form-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-0.1.js","https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js","index"];
 var imageNames = ["index","arourvaa","seritha","other","index/Fralith_Sitting_On_A_Log","commissions"];
 
-var supportsWebP = determineIfSupportWebp();
+var supportAvif = determineIfSupportAvif();
 var supportsGoogleHostedAMP = determineIfSupportsGoogleHostedAMP();
 var largestBreakPoint = 0;
 var mSizes = null;
@@ -161,16 +161,16 @@ function determineIfSupportsGoogleHostedAMP() {
     }
     return true;
 }
-function determineIfSupportWebp() {
-    // Safari 14 and later supports Webp; 
+function determineIfSupportAvif() {
+    // Safari 16 and later supports avif; 
     let match = navigator.userAgent.match(/Mac OS.*Version\/(\d+)/i);
-    return (match == null) || parseInt(match[1]) >= 14;
+    return (match == null) || parseInt(match[1]) >= 16;
 }
 function imagePath(filename) {
-    return supportsWebP ? filename.slice(0, -3) + 'webp' : filename;
+    return supportAvif ? filename.slice(0, -3) + 'avif' : filename;
 }
 function determineFileToDownload(url, isNavigate) {
-    if (!url.endsWith(".jpg") && !url.endsWith(".webp")) {
+    if (!url.endsWith(".jpg") && !url.endsWith(".avif")) {
         let key = url;
         if (this.isMyHtmlPage(url) && isNavigate && supportsGoogleHostedAMP) {
             url = "/spa";
@@ -181,7 +181,7 @@ function determineFileToDownload(url, isNavigate) {
         return [key, url, 2000];
     }
 
-    let fileName = url.split('/').pop().replace('.webp', '.jpg');
+    let fileName = url.split('/').pop().replace('.avif', '.jpg');
 
     let key, size;
     [key, size] = determineFileToDownloadImpl(fileName, "506.jpg");
